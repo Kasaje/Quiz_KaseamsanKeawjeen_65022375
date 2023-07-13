@@ -9,10 +9,10 @@ class Main{
 
 class Student{
 
-    protected int ID;
-    protected String Name;
-    protected int AddmissionYear;
-    protected double GPA;
+    private int ID;
+    private String Name;
+    private int AddmissionYear;
+    private double GPA;
 
     Student(int ID , String Name , int AddmissionYear , double GPA){
         this.ID = ID;
